@@ -1,0 +1,64 @@
+/*--------------------------------------------------------------
+# NAV
+------------------------------------
+.list_item{
+    display: inline-block;
+    list-style: none;
+
+}
+
+.link{
+    text-decoration: none;
+    
+    padding: 10px;
+    
+    position: relative;
+}
+
+.link:after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+
+.link:hover:after{
+    width: 100%;
+    right: 0;
+}
+--------------------------*/
+/* 1.- Menú-
+------------------------------
+
+
+.navbar ul li {
+    list-style: none;
+    
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.navbar ul li::before{
+    content: "";
+    height: 3px;
+    width:100%;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+
+}--*/
+
+

@@ -1,0 +1,109 @@
+código bueno NNOOOO borarr plis
+
+<i class="fa-solid fa-bars" style="color: #0259ed;"></i>
+
+
+<i class="fa-solid fa-xmark" style="color: #0259ed;"></i>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo_menu.css">
+    <title>Química Suastes S.A de C.V</title>
+</head>
+<body>
+
+    <!--
+      --------------- Encabezado - header ---------
+    -->
+
+    <header  class="container-fluid bg-primary d-flex justify-content-center">
+   
+      <p class="text-light mt-3 p-6 fs-5 ">¡Bienvenido, te invimos a que conoscas nuestros productos!</p>
+      
+    </header>
+    
+    <!--
+        ------------- Menú - Nav ------------
+    -->
+    <nav class="navbar navbar-expand-lg  bg-light" id="menu">
+        <div class="container-fluid p-3">
+          <a class="navbar-brand text-primary fs-5 fw-bold" href="#index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SOMOS</a>
+              </li>
+              <li>
+                <a class="nav-link" href="">CONTACTO</a>
+              </li>
+            </ul>
+                <form class="d-flex" role="search">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item" id="sesion_icon">
+                            
+                            <a class="nav-link" aria-current="page" href="">INICIAR SESION</a>
+                            <i class="fa-solid fa-user fa-fade fa-lg mt-3 mx-2" style="color: #0259ed;"></i>
+                            
+                        </li>
+                    </ul>
+                </form>
+          </div>
+        </div>
+    </nav>
+      <!------
+        ------------- Carrucel - section ------------
+      -------->
+    
+    <section id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      
+          <div class="carousel-inner">
+            <div class="carousel-item active d-item" data-bs-interval="3000">
+              <img src="https://arbejdsmiljoegruppen.dk/wp-content/uploads/2019/03/products-1200x416-1080x416.jpg" class="d-block w-100 d-img" alt="...">
+              <div class="carousel-caption top-0 mt-4">
+                <h2 class="mt-5 fs-3 text-uppercase">REACTIVOS</h2>
+                <h1 class="display-1 fw-bolder text-capitaize">QUIMICA MEYER</h1>
+                <h3>ENLACE CON LA CIENCIA</h4>
+              </div>
+            </div>
+            <div class="carousel-item d-item" data-bs-interval="3000">
+              <img src="https://th.bing.com/th/id/R.2f6c80f4ca069fdbb952b2804d54a862?rik=FJhoJKBSB%2fYWJA&pid=ImgRaw&r=0" class="d-block w-100 d-img" alt="120px">
+              <div class="carousel-caption top-0 mt-4">
+                <h2 class="mt-5 fs-3 text-uppercase">REACTIVOS</h2>
+                <h1 class="display-1 fw-bolder text-capitaize">QUIMICA MEYER</h1>
+                <h3>CREA Y EXPERIMENTA</h3>
+              </div>
+            </div>
+            <div class="carousel-item d-item" data-bs-interval="3000">
+              <img src="https://conceitos.com/wp-content/uploads/ciencia/Quimica-Geral.jpg" class="d-block w-100 d-img" alt="120px">
+              <div class="carousel-caption top-0 mt-4">
+                <h2 class="mt-5 fs-3 text-uppercase">REACTIVOS</h2>
+                <h1 class="display-1 fw-bolder text-capitaize">QUIMICA MEYER</h1>
+                <h3>AFILIATE A LA CIENCIA</h3>
+              </div>
+            </div>
+          </div>
+      
+    </section id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  
+    <header class="container-fluid bg-primary">
+      <p>REACTIVOS MEYER</p>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
