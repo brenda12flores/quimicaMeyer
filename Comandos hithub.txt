@@ -1,0 +1,39 @@
+
+cd \xampp\htdocs\practica1b
+cd \xampp\htdocs\Unidad3\loginCodeigniter
+cd \xampp\htdocs\Unidad3\loginCodeigniter
+
+git status
+
+git init
+
+git add -A
+
+
+git status
+
+git commit -m "version 1"
+
+git remote add origin https://github.com/brenda12flores/quimicaMeyer.git
+ https://github.com/brenda12flores/quimica_ra_sa_1.git
+
+git push -u origin master
+
+---------------------------------------
+
+git remote set-url  https://github.com/brenda12flores/quimica_ra_sa_1.git
+
+
+
+git push -u origin master
+
+
+
+git config user.email brendasuki97@yahoo.com
+
+git config user.name brenda12flores
+
+
+git config user.email brendaflores970812@gmail.com
+git config user.name BrendaMontanoFlores
+

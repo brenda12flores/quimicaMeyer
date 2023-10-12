@@ -6,95 +6,303 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="css/estilo_menu.css">
-    <title>Química Suastes S.A de C.V</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/estilos_menu.css">
+    <link rel="stylesheet" href="css/estilos_carrucel.css">
+    <link rel="stylesheet" href="css/estilos_hover.css">
+    
+    <!--<script defer src="js/minizar_menu.js"></script>-->
+    <title>Meyer</title>
 </head>
 <body>
 
     <!--
       --------------- Encabezado - header ---------
     -->
-
-    <header  class="container-fluid bg-primary d-flex justify-content-center">
-   
-      <p class="text-light mt-3 p-6 fs-5 ">¡Bienvenido, te invimos a que conoscas nuestros productos!</p>
-      
+    <header  class="container-fluid bg-primary  justify-content-center">
+      <div class="row ">
+        <div class="col text-left" >
+          <i class="fa-brands fa-facebook mt-4 fa-xl mx-5" style="color: #f8f016;"></i>
+          <i class="fa-brands fa-twitter fa-xl mt-4" style="color: #fbff14;"></i>
+        </div>
+        <div class="col " >
+          <p class="mt-3 text-white">¡Bienvenid@s!</p>
+        </div>
+      </div>  
     </header>
-    
     <!--
         ------------- Menú - Nav ------------
     -->
-    <nav class="navbar navbar-expand-lg  navbar-light" id="menu">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light " id="menu">
         <div class="container-fluid p-3">
-          <a class="navbar-brand text-primary fs-5 fw-bold" href="#index.html">INICIO</a>
-          <button class="navbar-toggler collapse d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-brand text-primary fs-5 fw-bold" href="#">MEYER</span>
+          <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="toggler-icon top-bar"></span>
             <span class="toggler-icon middle-bar"></span>
             <span class="toggler-icon bottom-bar"></span>
           </button>
-          
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">PRODUCTOS</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " id="toggleNav">
+              <li class="nav-item d-flex"  >
+                <a class="nav-link  active" aria-current="page" href="index.html">INICIO</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SOMOS</a>
+              <li class="nav-item d-flex"  >
+                <a class="nav-link " href="productos.html">PRODUCTOS</a>
               </li>
-              <li>
-                <a class="nav-link" href="">CONTACTO</a>
+              <li class="nav-item d-flex">
+                <a class="nav-link "   href="#somos">SOMOS</a>
+              </li>
+              <li class="nav-item d-flex">
+                <a class="nav-link " href="contactanos.html">CONTACTO</a>
               </li>
             </ul>
-                <form class="d-flex" role="search">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item" id="sesion_icon">
-                            <a class="nav-link" aria-current="page" href="">INICIAR SESION</a>
-                            <i class="fa-solid fa-user fa-fade fa-lg mt-3 mx-2" style="color: #0259ed;"></i>
-                        </li>
-                    </ul>
-                </form>
+            <form class="d-flex" role="search">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" id="sesion_icon">
+                        <a class="nav-link" aria-current="page" href="#">INICIAR SESION</a>
+                        <i class="fa-solid fa-user fa-fade fa-lg mt-3 mx-2" style="color: #0259ed;"></i>
+                    </li>
+                </ul>
+            </form>
           </div>
         </div>
     </nav>
-      <!------
-        ------------- Carrucel - section ------------
-      -------->
+
+
+    <!------
+    ------------- Carrucel - section ------------
+    ------
     
     <section id="carouselExampleSlidesOnly" sclass="carousel slide" data-bs-ride="carousel">
-      
-          <div class="carousel-inner">
-            <div class="carousel-item active d-item" data-bs-interval="3000">
-              <img src="https://arbejdsmiljoegruppen.dk/wp-content/uploads/2019/03/products-1200x416-1080x416.jpg" class="d-block w-100 d-img" alt="...">
-              <div class="carousel-caption top-0 mt-4">
-                <h2 class="mt-5 fs-3 text-uppercase">REACTIVOS</h2>
-                <h1 class="display-1 fw-bolder text-capitaize">QUIMICA MEYER</h1>
-                <h3>ENLACE CON LA CIENCIA</h4>
-              </div>
-            </div>
-            <div class="carousel-item d-item" data-bs-interval="3000">
-              <img src="https://th.bing.com/th/id/R.2f6c80f4ca069fdbb952b2804d54a862?rik=FJhoJKBSB%2fYWJA&pid=ImgRaw&r=0" class="d-block w-100 d-img" alt="120px">
-              <div class="carousel-caption top-0 mt-4">
-                <h2 class="mt-5 fs-3 text-uppercase">REACTIVOS</h2>
-                <h1 class="display-1 fw-bolder text-capitaize">QUIMICA MEYER</h1>
-                <h3>CREA Y EXPERIMENTA</h3>
-              </div>
-            </div>
-            <div class="carousel-item d-item" data-bs-interval="3000">
-              <img src="https://conceitos.com/wp-content/uploads/ciencia/Quimica-Geral.jpg" class="d-block w-100 d-img" alt="120px">
-              <div class="carousel-caption top-0 mt-4">
-                <h2 class="mt-5 fs-3 text-uppercase">REACTIVOS</h2>
-                <h1 class="display-1 fw-bolder text-capitaize">QUIMICA MEYER</h1>
-                <h3>AFILIATE A LA CIENCIA</h3>
-              </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-item" data-bs-interval="3000">
+            <img src="https://arbejdsmiljoegruppen.dk/wp-content/uploads/2019/03/products-1200x416-1080x416.jpg" class="d-block w-100 d-img" alt="...">
+            <div class="carousel-caption top-0 mt-4">
+              <h2 class="mt-5 fs-3 text-uppercase">REACTIVOS</h2>
+              <h1 class="display-1 fw-bolder text-capitaize">QUIMICA MEYER</h1>
+              <h3>ENLACE CON LA CIENCIA</h4>
             </div>
           </div>
-      
-    </section id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  
-    <header class="container-fluid bg-primary">
-      <p>REACTIVOS MEYER</p>
-    </header>
+          <div class="carousel-item d-item" data-bs-interval="3000">
+            <img src="https://th.bing.com/th/id/R.2f6c80f4ca069fdbb952b2804d54a862?rik=FJhoJKBSB%2fYWJA&pid=ImgRaw&r=0" class="d-block w-100 d-img" alt="120px">
+            <div class="carousel-caption top-0 mt-4">
+              <h2 class="mt-5 fs-3 text-uppercase">REACTIVOS</h2>
+              <h1 class="display-1 fw-bolder text-capitaize">QUIMICA MEYER</h1>
+              <h3>CREA Y EXPERIMENTA</h3>
+            </div>
+          </div>
+          <div class="carousel-item d-item" data-bs-interval="3000">
+            <img src="https://conceitos.com/wp-content/uploads/ciencia/Quimica-Geral.jpg" class="d-block w-100 d-img" alt="120px">
+            <div class="carousel-caption top-0 mt-4">
+              <h2 class="mt-5 fs-3 text-uppercase">REACTIVOS</h2>
+              <h1 class="display-1 fw-bolder text-capitaize">QUIMICA MEYER</h1>
+              <h3>AFILIATE A LA CIENCIA</h3>
+            </div>
+          </div>
+        </div>
+    </section id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">--->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <section id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="img/carrucel1.jpg" class="d-block w-100 c-img" alt="Slide 1">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">REACTIVOS</p>
+            <h1 class="display-1 fw-bolder text-capitalize">QUIMICA MEYER</h1>
+            <P class="mt-5 fs-3 text-uppercase">ENLACE CON LA CIENCIA</P>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="img/carrucel2.jpg" class="d-block w-100 c-img" alt="Slide 2">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="text-uppercase fs-3 mt-5">REACTIVOS</p>
+            <h1 class="display-1 fw-bolder text-capitalize">QUIMICA MEYER</h1>
+            <P class="mt-5 fs-3 text-uppercase">AFILIATE A LA CIENCIA</P>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="img/carrucel3.jpg" class="d-block w-100 c-img" alt="Slide 3">
+          <div class="carousel-caption top-0 mt-4">
+            <p class="text-uppercase fs-3 mt-5">REACTIVOS</p>
+            <h1 class="display-1 fw-bolder text-capitalize">QUIMICA MEYER</h1>
+            <P class="mt-5 fs-3 text-uppercase">CREA Y EXPERIMENTA</P>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    <!--
+        ------------- Somos - Section ------------
+    -->
+    <section class="container" id="somos">
+      <div class="row mt-4" >
+        <!--<div class="col-md-3 " style="background-color: rgb(226, 234, 240);">
+          <img src="img/logo2.png" class="img-fluid rounded-start mx-auto d-block " alt="...">
+        </div>
+        
+        <div class="col-md-9 text-primary" style="background-color: rgb(226, 234, 240);">
+          <h1 >QUIENES SOMOS</h1>
+          <font color="navy">
+            <p>Nuestra Filosofía de Calidad es el eje que rige el servicio que brindamos a nuestros clientes.</p>
+          </font>
+        </div>-->
+        <h1 class="text-primary">¡QUIENES SOMOS!</h1>
+        <p><i> Nuestra Filosofía de Calidad es el eje que rige el servicio que brindamos a nuestros clientes.</i></p>
+        <hr class="mb-4">
+        
+          <div class="col-md-6 mt-2 " id="cardA">
+            <div data-aos="fade-right" class="h-100 p-5 bg-white rounded-3" id="cardB">
+              <i class="fa-solid fa-flask fa-xl" style="color: #fff833;"></i>
+              <hr class="mb-4">
+              <h2 class="text-primary">MISION</h2>
+              <p>Química Suastes, S.A. de C.V. es una empresa 100% mexicana que se preocupa por aquellas empresas del ramo químico e instituciones educativas, que tengan la necesidad de productos químicos para sus análisis y procesos; proporcionando al 
+                mercado productos y/o servicios de calidad, como son, reactivos analíticos y productos industriales; contando con tecnología avanzada y personal altamente calificado para satisfacer
+                 eficazmente nuestra demanda real, apoyándonos en las necesidades de nuestros clientes y de nuestro equipo de trabajo.</p>
+              
+            </div>
+          </div>
+          <div class="col-md-6 mt-2" id="cardA">
+            <div data-aos="fade-left" class="h-100 p-5 bg-white  rounded-3" id="cardB">
+              <i class="fa-solid fa-users-gear fa-xl" style="color: #f0de14;"></i>
+              <hr class="mb-4">
+              <h2 class="text-primary">VISION</h2>
+              <p>Ser una firma líder en la comercialización de productos químicos, y así desempeñar el triple balance como objetivo adecuado; 
+                ser el proveedor, empleador e inversión elegidos, contando con el más alto nivel en infraestructura y tecnología, así como un equipo de trabajo altamente capacitado; buscando constantemente la satisfacción de nuestros clientes, 
+                quienes finalmente son nuestra razón de ser.</p>
+              
+            </div>
+          </div>
+
+          <div class="col-md-6 mt-5"id="cardA">
+            <div data-aos="fade-right" class="h-100 p-5 bg-white rounded-3" id="cardB">
+              <i class="fa-solid fa-ranking-star fa-xl" style="color: #fbf323;"></i>
+              <hr class="mb-4">
+              <h2>POLITICA DE CALIDAD</h2>
+              <p>En Química Suastes, S.A. de C.V. estamos comprometidos a proporcionar productos químicos de calidad cumpliendo con las normas 
+                establecidas. Trabajamos en cumplimiento de las expectativas y necesidades de nuestros clientes a través de la mejora continua de 
+                procesos y en busca de la excelencia.</p>
+              
+            </div>
+          </div>
+          <div class="col-md-6 mt-5" id="cardA">
+            <div data-aos="fade-left" class="h-100 p-5 bg-white  rounded-3" id="cardB">
+              <i class="fa-solid fa-award fa-xl" style="color: #f1f41f;"></i>
+              <hr class="mb-4">
+              <h2>CALIDAD</h2>
+              <p>Para nosotros, la calidad es muy importante, es por eso que en Química Suastes nos esforzamos diariamente para redefinir las rutas que nos lleven a alcanzar los nuevos estándares de certificación que se requieren para el Sistema de Gestión de la Calidad de la norma ISO 9000.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!--
+      --------------Nuesto Negocio-----
+    -->
+    <section class="container py-4">
+      <h1 class="text-primary mt-2">NUESTRO NEGOCIO</h1>
+      <hr class="mb-4">
+      <div class="row g-3" >
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card p-3 h-100 " data-aos="fade-up" id="cardB">
+            <img src="img/nuestro1.png" alt="nuestro1" class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Permitanos ayudarte </h2>
+              <p class="card-text">Todo el equipo de Química Suastes está comprometido a responder consistentemente a sus expectativas y requerimientos. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card p-3 h-100" data-aos="fade-up" id="cardB">
+            <img src="img/nuestro2.png" alt="nuestro1" class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Nuestro compromiso </h2>
+              <p class="card-text">El compromiso con nuestros clientes es trabajar estrechamente con ellos para proporcionarles servicios de la más alta 
+                calidad, con el objetivo primario de satisfacer sus necesidades.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card p-3" data-aos="fade-up" id="cardB">
+            <img src="img/nuestro3.jpg" alt="nuestro1" class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Lineamientos</h2>
+              <p class="card-text">En Química Suastes establecimos los lineamientos fundamentales de trabajo seguro, a fin de que sean adoptados e incorporados 
+                en todos los procesos y actividades realizadas en todas las áreas, garantizando el bienestar y la integridad del personal, así como del medio 
+                ambiente.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+        ------------- Footer - Pie de página ------------
+    -->
+    <footer class="bg-primary text-white pt-4 pb-4 mt-5">
+      <div class="container text-center text-md-start">
+          <div class="row text-center text-md-start">
+  
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-center">
+                <i class="fa-solid fa-location-dot fa-xl mb-3" style="color: #fdf635;"></i>
+                  <h5 class="text-uppercase mb-2 font-weight-bold ">Dirección</h5>
+                  <hr class="mb-2">
+                  <p>Guillermo Prieto 8A,
+                      Col. Santa Ana Poniente Alcaldía Tlahuac.
+                      .C.P. 13300 Ciudad de México.</p>
+              </div>
+  
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-center">
+                  <i class="fa-solid fa-phone fa-xl mb-3" style="color: #f9fd21;"></i>
+                  <h5 class="text-uppercase mb-2 font-weight-bold  ">Télefono</h5>
+                  <hr class="mb-2">
+                  <p>(52) 5543810318</p>
+              </div>
+  
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-center">
+                <i class="fa-solid fa-envelope fa-xl mb-3" style="color: #eee617;"></i>
+                  <h5 class="text-uppercase mb-2 font-weight-bold ">Correo</h5>
+                  <hr class="mb-2">
+                  <p>reactivosra@gmail.com</p>
+              </div>
+  
+              <hr class="mb-2">
+              <div class="text-center ">
+                  <p>©2023 Derechos reservados RA Sa. de C.V.</p>
+              </div>
+  
+          </div>
+      </div>
+    </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+      <script type="text/javascript">
+        $('.nav-link').click(function(){
+          $('.navbar-toggler').collapse('hide');
+        });
+      </script>
+
+      <script type="text/javascript">    
+        $('.nav-link').click(function() {
+            $('.navbar-collapse').collapse('hide');
+          });
+        </script>
+
+   
 </body>
 </html>

@@ -1,0 +1,46 @@
+#fase6{
+    background-image: url('https://frasesdelavida.com/wp-content/uploads/2018/10/frases-de-qu%C3%ADmica.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+  }
+  
+
+#card-fase6{
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 800px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+  
+#card-fase6-header h3,label{
+    color: white;
+    text-align: center;
+}
+  
+#parrafo-6{
+    color: white;
+    text-align: center;
+}
+
+.social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+    
+.social_icon span:hover{
+    color: rgb(36, 51, 209);
+    cursor: pointer;
+}
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.form-control:focus{
+    color: rgb(36, 51, 209);
+}
